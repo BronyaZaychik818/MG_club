@@ -1,0 +1,64 @@
+/* 非主页通用样式 */
+body {
+    background-color: #cceeff;
+}
+
+/* 加粗 */
+.cu {
+    font-weight: 700;
+}
+
+/* 顶部 */
+
+.search {
+    height: 160px;
+    padding: 35px 96px 16px 120px;
+    margin: 30px auto;
+    background: url(../res/images/background/search-background-large.png) no-repeat 5px 3px;
+    background-size: 99.15% 89%;
+}
+
+.search label {
+    left: 144px;
+    top: 27px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.search .form-inline {
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.search .form-inline .form-control {
+    float: left;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    width: 990px;
+    height: 38px;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.search .form-inline button {
+    top: 0px;
+    right: 0px;
+    height: 38px;
+    width: 75px;
+    background: url(../res/images/background/search-button.png) no-repeat -14px 0px;
+    filter: brightness(1);
+    background-size: 140% 100%;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.search .form-inline button:hover {
+    filter: brightness(0.95);
+}
+
+.search .form-inline button:active {
+    filter: brightness(0.88);
+}

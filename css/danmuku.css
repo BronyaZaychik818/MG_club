@@ -1,0 +1,18 @@
+.top .nav .item_danmuku a {
+    color: rgb(0, 0, 0);
+    background-color: #e5c0aa;
+}
+
+.hint {
+    border: 1px solid rgba(0, 0, 0, .125);
+    background-color: #fcfcfc;
+    border-radius: .25rem;
+    padding: 12px 20px;
+    margin-bottom: 60px;
+    font-size: 15.5px;
+    color: #8181a2;
+}
+
+.hint p {
+    padding: 5px 0px;
+}

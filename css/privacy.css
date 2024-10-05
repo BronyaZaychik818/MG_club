@@ -1,0 +1,50 @@
+body {
+    background-color: #cceeff;
+}
+
+/* 加粗 */
+.cu {
+    font-weight: 700;
+}
+
+.main {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    font-size: 16px;
+}
+
+.main h1 {
+    margin: 0px 0px 16px;
+    padding: 0px 0px 9.6px;
+    line-height: 1.25;
+    font-size: 32px;
+    border-bottom: 1px solid rgba(255, 255, 255, .125);
+}
+
+.main p {
+    margin: 0px 0px 16px;
+}
+
+.main .head {
+    margin: 15px 0;
+}
+
+.main h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0px 0px 8px;
+    line-height: 1.25;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, .125);
+}
+
+.main p a {
+    color: #58a6ff;
+}
+
+.main p a:hover {
+    text-decoration: underline;
+}

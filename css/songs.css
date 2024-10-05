@@ -1,0 +1,46 @@
+.top .nav .item_songs a {
+    color: rgb(0, 0, 0);
+    background-color: #e5c0aa;
+}
+
+.songs {
+    background-color: #fff;
+    font-size: 15.5px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.title {
+    display: flex;
+    padding: 12px;
+}
+
+.title span {
+    flex: 1;
+}
+
+.title .songs-name {
+    flex: 2;
+}
+
+.music li {
+    display: flex;
+    padding: 12px;
+}
+
+.music span {
+    flex: 1;
+}
+
+.music .songs-name {
+    flex: 2;
+}
+
+.music li:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.music .songs-name a:hover {
+    color: #0054af;
+}

@@ -1,0 +1,68 @@
+/* 快速链接 */
+.link_container ul li {
+    float: left;
+    width: 258px;
+    height: 129px;
+}
+
+.link_container ul li img {
+    width: 258px;
+    height: 129px;
+}
+
+/* 快速链接 */
+
+/* 轮播图 */
+.banner-container {
+    width: 1200px;
+    height: 645px;
+    margin: 1rem auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-container .banner-img-container {
+    width: 6000px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    animation: run 20s ease infinite;
+}
+
+.banner-container .banner-img-container:hover {
+    animation-play-state: paused;
+}
+
+.banner-container .banner-img-container img {
+    width: 1200px;
+    height: 100%;
+}
+
+/* 动画 */
+@keyframes run {
+
+    0%,
+    20% {
+        transform: translateX(0);
+    }
+
+    25%,
+    45% {
+        transform: translateX(-1200px);
+    }
+
+    50%,
+    70% {
+        transform: translateX(-2400px);
+    }
+
+    75%,
+    95% {
+        transform: translateX(-3600px);
+    }
+
+    100% {
+        transform: translateX(-4800px);
+    }
+}
