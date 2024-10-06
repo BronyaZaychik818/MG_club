@@ -41,6 +41,19 @@
     <!-- 意见反馈 -->
     <a href="https://wj.qq.com/s2/6628088/61ad/" title="意见反馈" target="_blank" class="feedback"></a>
     <!-- 意见反馈 -->
+    <!-- 返回顶部 -->
+    <input type="button" class="backTop">
+    <script>
+        const backTop = document.querySelector('.backTop')
+        window.addEventListener('scroll', function () {
+            const n = document.documentElement.scrollTop
+            backTop.style.display = n > 300 ? 'block' : 'none'
+        })
+        backTop.addEventListener('click', function () {
+            window.scrollTo(0, 0)
+        })
+    </script>
+    <!-- 返回顶部 -->
     <!-- 正文 -->
     <div class="main w">
         <h1>毛怪俱乐部网站隐私政策</h1>

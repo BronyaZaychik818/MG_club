@@ -43,8 +43,21 @@
     <!-- 意见反馈 -->
     <a href="https://wj.qq.com/s2/6628088/61ad/" title="意见反馈" target="_blank" class="feedback"></a>
     <!-- 意见反馈 -->
+    <!-- 返回顶部 -->
+    <input type="button" class="backTop">
+    <script>
+        const backTop = document.querySelector('.backTop')
+        window.addEventListener('scroll', function () {
+            const n = document.documentElement.scrollTop
+            backTop.style.display = n > 300 ? 'block' : 'none'
+        })
+        backTop.addEventListener('click', function () {
+            window.scrollTo(0, 0)
+        })
+    </script>
+    <!-- 返回顶部 -->
     <!-- 搜索框 -->
-    <div class="search w">
+    <div class=" search w">
         <label>查找直播记录</label>
         <form class="form-inline">
             <input type="text" name="keyword" class="form-control" value placeholder="按歌名搜索">

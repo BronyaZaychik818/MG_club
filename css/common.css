@@ -89,6 +89,28 @@
 
 /* 意见反馈 */
 
+/* 返回顶部 */
+.backTop {
+    display: block;
+    position: fixed;
+    right: 30px;
+    bottom: 110px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../res/images/file-text/arrow-up.svg) no-repeat 8px 7px;
+    background-size: 35px 35px;
+    background-color: #ffcdb5;
+    transition: all .3s;
+}
+
+.backTop:hover {
+    background-color: #f4b695;
+}
+
+/* 返回顶部 */
+
 /* 底部 */
 footer {
     height: 150px;
